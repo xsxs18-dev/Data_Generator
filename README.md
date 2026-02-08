@@ -69,23 +69,33 @@ MIT License – free to use, share, and improve.
 
 ---
 
-# data_generator.py
-# File Dataset Generator
-# Generates files with a defined total size (GB)
-# Works on Windows, macOS, Linux, iOS (Pythonista / Pyto)
-# Python 3.x
+# The full code
+"""
+File Dataset Generator
+=====================
+
+Generates a specified number of files with a total size in GB.
+Useful for upload testing, cloud stress tests, app QA.
+
+Works on: Windows, macOS, Linux, iOS (Pythonista / Pyto)
+Python 3.x
+"""
 
 import os
 
-OUTPUT_FOLDER = "generated_files"
+# --------- CONFIG ---------
+OUTPUT_FOLDER = "generated_files"  # output folder for generated files
+# --------------------------
+
+# Create folder if it doesn't exist
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 print("📦 File Dataset Generator\n")
 
-# User input
+# Ask user for input
 while True:
     try:
-        file_count = int(input("Enter number of files: "))
+        file_count = int(input("Enter number of files to generate: "))
         if file_count < 1:
             raise ValueError
         break
@@ -94,14 +104,14 @@ while True:
 
 while True:
     try:
-        total_size_gb = float(input("Enter total size (GB): "))
+        total_size_gb = float(input("Enter total size in GB: "))
         if total_size_gb <= 0:
             raise ValueError
         break
     except ValueError:
         print("⚠️ Please enter a valid positive number.")
 
-# Compute size per file
+# Convert GB to bytes
 total_bytes = int(total_size_gb * 1024 * 1024 * 1024)
 size_per_file = total_bytes // file_count
 
