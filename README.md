@@ -17,7 +17,7 @@
 ## 📱 iOS Guide
 
 1. Install **Pythonista** or **Pyto** app  
-2. Copy `dataset_generator.py` into the app  
+2. Copy `data_generator.py` into the app  
 3. Run the script  
 4. Enter number of files and total size in GB  
 5. Generated files appear in `generated_files/`  
@@ -27,7 +27,7 @@
 ## 💻 PC Guide
 
 1. Install Python 3.x  
-2. Save `dataset_generator.py` in a folder  
+2. Save `data_generator.py` in a folder  
 3. Open terminal / command prompt  
 4. Run script:
 python dataset_generator.py
@@ -69,7 +69,7 @@ MIT License – free to use, share, and improve.
 
 ---
 
-# dataset_generator.py
+# data_generator.py
 # File Dataset Generator
 # Generates files with a defined total size (GB)
 # Works on Windows, macOS, Linux, iOS (Pythonista / Pyto)
