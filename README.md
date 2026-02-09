@@ -17,7 +17,7 @@
 ## 📱 iOS Guide
 
 1. Install **Pythonista** or **Pyto** app  
-2. Copy [data_generator.py](https://raw.githubusercontent.com/xsxs18-dev/Data_Generator/refs/heads/main/Data_generator.py) into the app  
+2. Copy [data_generator.py](https://raw.githubusercontent.com/xsxs18-dev/Data_Generator/refs/heads/main/data_generator.py) into the app  
 3. Run the script  
 4. Enter number of files and total size in GB  
 5. Generated files appear in `generated_files/`  
