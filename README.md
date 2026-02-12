@@ -51,17 +51,10 @@ The script automatically calculates the size per file and generates files filled
 
 ---
 
-## 💸 Support / Donations (Optional)
+## 💸 Support
 
-If this tool saved you time or helped with testing, consider a voluntary crypto donation:
+If this tool saved you time or helped with testing, you can share this tool to others to support me!
 
-- **BTC:** bc1q4ug9y65u7kwz9rt2j7jg5h9r2snuzrlzkmn0vf
-- **SOL:** HtfwXYPBsqsb51ZqADXP7Tm5mRwAaPz4ErZFRahxcErY
-- **ETH:** 0x28eEfFD722F3e209189cbB102211FEaE8879eC98
-
-Every contribution helps maintain and improve the project.
-
----
 
 ## 📝 License
 
